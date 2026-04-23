@@ -1,87 +1,209 @@
-# (Holloway) Chew, Kean Ho's System Hardware Service Product Trademark Logo 7680x4320 | (Holloway) Chew, Kean Ho's Creative Visuals
+# (Holloway) Chew, Kean Ho's Fabricable Hardware Service Product Trademark Logo 7680x4320 | (Holloway) Chew, Kean Ho's Creative Visuals
 
 [![logo](/Pictures/banner_7680x4320.svg)](#)
 
-The (Holloway) Chew, Kean Ho's System Hardware Service Product Trademark Logo.
-They published clear trademark guideline and supplied the required material
-files for it here. The preferred version is `.svg` which has non-destructive
-scale up & down properties and can be converted into any rasterized images
-(e.g. `jpeg`, `webp`, `avif`, etc).
+The (Holloway) Chew, Kean Ho's Fabricable Hardware Service Product Trademark
+Logo. They published clear trademark guideline and supplied the required
+material files for it here. The preferred version is `.svg` which has
+non-destructive scale up & down properties and can be converted into any
+rasterized images (e.g. `jpeg`, `webp`, `avif`, etc).
 
-This project creates (Holloway) Chew, Kean Ho's System Hardware Service Product
-Trademark Logo specifically for 7680x4320 size.
-
-
+This project creates (Holloway) Chew, Kean Ho's Fabricable Hardware Service
+Product Trademark Logo specifically for 7680x4320 size.
 
 
-## Artificial Intelligence (A.I) Decrees
+
+
+## Verifying Content Integrity
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This project deploys the use of one or more generative artificial intelligence
-such as but not limited to large language model (LLM) for the following tasks:
+To secure the content from unauthorized modification by anyone down to bit-level
+(`0|1`), they are cryptographically signed using one or more cryptography tools
+such as but not limited to:
+
+* [GnuPG](https://gnupg.org); AND/OR
+* [OpenSSL](https://www.openssl.org/).
+
+The public key and the associated certificate are attached. Only the main owner
+keeps and maintains the private keys. To verify the content's integrity:
 
 
 
-### Data Sourcing
+### GnuPG
+
+1. Install [GnuPG](https://gnupg.org) software if not present.
+2. Download the target file and its detached signature file (the `.asc` file
+   with the same filename).
+3. Download the public key file (`.gpg`).
+4. Place them next to each other in the directory.
+5. Open a terminal and execute the following command:
+
+```
+$ gpg --no-default-keyring --keyring /path/to/public.gpg --verify /path/to/file.asc
+```
+
+
+
+### OpenSSL
+
+1. Install [OpenSSL](https://www.openssl.org) software if not present.
+2. Download the target file and its detached signature file (the `.sig`/`.sign`
+   file with the same filename).
+3. Download the public certificate file (`.pem`) containing the public key
+   within.
+4. Place them next to each other in the directory.
+5. Open a terminal and execute the following command:
+
+```
+$ openssl dgst -verify /path/to/pubkey.pem -signature /path/to/file.sig /path/to/file
+```
+
+
+
+
+## Artificial Intelligence (A.I.) Decrees
+
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
+
+This decree defines the project’s policy on the use of Artificial Intelligence.
+The following sections list data lifecycle activities and indicate whether A.I.
+is deployed. Unless explicitly stated otherwise (e.g. deployment with
+specifics), A.I. is not used for these tasks.
+
+
+
+### Data Sourcing & Acquisition
 
 > [!Note]
 >
-> * Performing enhanced web searches due to polluted search engine indexes.
-> * Performing completely generated media such as but not limited to images,
->   videos, and audios.
+> Example activities:
+>
+> * Performing enhanced web searches due to search engine pollution by A.I.
+>   slop contents.
+> * Performing completely auto-generated media such as but not limited to
+>   images, videos, and audios.
 
-* Used for data and reading material searching as the search engine across the
-  Internet had collapsed due to A.I publication slops.
-* Used for grammar and language correction detection on the human-made written
-  script.
+* Multiple Large Language Model (LLM) A.I.s as the search engine for searching
+  research materials across the Internet due to massive unwanted A.I publication
+  slops.
+* One or more LLM A.I.s as the grammar and language corrector and enhancer for
+  superpervised improvement against human written content.
 
 
 
-### Data Processing & Analytics
+### Data Processing & Transformation
 
 > [!Note]
 >
-> * Performing development via multi-steps queries (also known as
->   *vibe coding* or *agentic AI processing*).
-> * Performing data analytics via multi-steps queries (also known as
->   *vibe coding* or *AI vibing*).
-> * Performing dedicated and task specific work where conventional technologies
->   could not achieve such as but not limited to upscaling an image verbatim.
+> Example activities:
+>
+> * Performing multi-steps process development.
+> * Performing data sanitization like data cleaning and data deduplication.
+> * Performing data format compatibility conversion.
+> * Constructing and optimizing data processing libraries.
+> * Upscaling an image with neural network not achievable with conventional
+    image manipulation technologies.
 
-No deployment.
+* No deployment.
 
 
 
-### Data Testing
+### Data Storage & Security
 
 > [!Note]
+>
+> Example activities:
+>
+> * Performing security and threat detection.
+> * Performing `Data at Rest` encryption and health monitoring.
+> * Performing encryption data storage management.
+> * Performing automated data storage house-keeping.
+> * Performing data storage devices health monitoring and mitigation.
+
+* No deployment.
+
+
+
+### Data Analysis & Insight Generation
+
+> [!Note]
+>
+> Example activities:
+>
+> * Performing multi-steps data analytics.
+> * Performing pattern detection and recognition.
+> * Developing predictive modelling.
+> * Developing natural language queries models.
+> * Creating artificial intelligence's neural network models based on data
+>   feeds.
+> * Optimizing artificial intelligence's transfer learning, hyperparameter
+>   tuning, etc.
+
+* No deployment.
+
+
+
+### Data Quality Validation & Assurances
+
+> [!Note]
+>
+> Example activities:
 >
 > * Performing end-user use case simulated testings.
+> * Performing automated sanity testings.
+> * Performing penetration & security testings.
+> * Performing anomaly detection testings.
+> * Performing schema validations.
+> * Performing automated testing of data pipelines.
 
-No deployment.
-
-
-
-### Data Visualization
-
-> [!Note]
->
-> * Performing completely generated data visualization via multi-step queries
->   (also known as *vibe coding*).
-
-No deployment.
+* No deployment.
 
 
 
-### Data Archiving & Deletion
+### Data Visualization & Reporting
 
 > [!Note]
 >
-> * Performing data clean-up via multi-step queries (also known as
->   *vibe coding*).
+> Example activities:
+>
+> * Performing data graphical visualization creation based on data feeds.
+> * Performing summarized dashboarding with graphical design and data feeds.
+> * Performing report writing.
+> * Performing prediction projections.
 
-No deployment.
+* No deployment.
+
+
+
+### Data Governance & Compliance
+
+> [!Note]
+>
+> Example activities:
+>
+> * Performing personal identifiable information (PII) filtration and removal.
+> * Performing regulatory compliance checks (e.g., data filtration, censorship,
+>   removal as required by law).
+> * Performing compliance monitoring and validation.
+> * Performing data lineage tracking and analysis.
+> * Performing data audit trail analysis.
+
+* No deployment.
+
+
+
+### Data Sharing & Publication
+
+> [!Note]
+>
+> Example activities:
+>
+> * Performing document's metadata creation.
+> * Performing document translation.
+> * Processing data publication licensing and management.
+
+* No deployment.
 
 
 
@@ -90,56 +212,76 @@ No deployment.
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-Since (Holloway) Chew, Kean Ho published its brand and trademark guideline,
-**you MUST go through the following to avoid any unwanted legal implications**:
-
-* https://github.com/chewkeanho/legals-policies-trademark
-* Standard Global Trademark Laws
-* Local Trademark Laws
-
-While not specified by (Holloway) Chew, Kean Ho; please ensure the outputs are
-also web ready. Refer:
-
-* https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons
-* https://web.dev/articles/maskable-icon
-* https://developer.x.com/en/docs/x-for-websites/cards/overview/summary-card-with-large-image
-* https://developers.facebook.com/docs/sharing/webmasters/images/
-
-For software supply chain, to guarentee the trademarks **ARE NOT** vendor-locked
-by any expensive or proprietary software, please **ONLY USE AND SUPPORT** open
-source image editing software specifically as follows:
-
-* **GIMP (https://gimp.org)** - for their very amazing alternate format exports
-  (e.g. `avif`, `webp`, `jpg`, `ico`, and `png`) functions.
-* **Inkscape (https://inkscape.org)** - for vector graphics maintenances and
-  exporting SVG plain vector files.
-
-For directory organizations:
-
-* The principal canvas **MUST BE SAVED** in `inkscape SVG format` and retain all
-  legal attributes (license, copyright, etc). The files **MUST HAVE**
-  `inkscape-` prefixes to avoid confusion. They are saved inside
-  `/Pictures/trademarks/principal-canvas` directory.
-* The exported svg **MUST BE IN** `Plain SVG format` and retain all legal
-  attributes (license, copright, etc). The files **MUST NOT HAVE** `inkscape-`
-  prefixes. They are saved inside `/Pictures/trademarks` directory.
-* The main-course **MUST** always be `.svg` as end-user can use GIMP to convert
-  into other formats.
-* Therefore, additional non-text based images (e.g. `.ico`, `.jpg`, `.webp`, and
-  `.avif`) should be published in `Release` section as "Good to Have" convenient
-  side-dishes.
-
-For artificial intelligence:
-
-* **ONLY USE** for internal research or Internet searches internally.
-* **Any automated or "vibe" output commitments are STRICTLY PROHIBITED**.
-  * This is a legal binding project; **DO NOT LET ANY** A.I. near any of your
-    code and files commitment.
-  * If you sign-off any A.I. commitment, **YOU WILL BE HELD FULLY LIABLE FOR
-    ALL ITS CONCEQUENCES**.
-  * Therefore: **STRICTLY HUMAN COMMITMENT**.
-* **Use of passive A.I. (e.g. image upscaling) is rare to none** since
-  the trademark graphic materials **MUST** be vectorized as its first rule.
+1. This is a **STRICTLY DECENTRALIZED SELF-SUFFICIENT git repository** so all
+   critical and maintenance data and info **MUST** inside this repository.
+   Anyone has this repository can operate without any restrictions or
+   limitations.
+2. **DO NOT use `git-lfs`** due to ambiguous and inconsistent storage allocation
+   policies from various git service providers.
+   * It will disrupt the work pipeline causing unwanted data losses downstream.
+   * Some actually monetarily charge you for storage space.
+3. For repository licenses, this repo uses the unified copyright accreditations
+   licensing approach. Hence, you should do the following:
+   * For `CREATORS.txt` or `CONTRIBUTORS.txt`:
+     1. `CREATORS.txt` are the legal entities that are responsible and own
+        the project copyright like authors, principal designers, principal
+        engineers, etc.
+     2. `CONTRIBUTORS.txt` are any legal entities that contributes to the
+        project but are not directly owning the project copyright like
+        pull-request contributors, curators, scribers, etc. Entities from
+        `CREATORS.txt` can be added here for an unified contributors list.
+     3. Each files have their internal guides as comments. Please comply
+        accordingly.
+   * `LICENSE.txt`
+     1. Update the collective aliases (e.g. `The ABC Project Team`) matching
+        the project correctly. The format is the same as the ones in
+        `CREATORS.txt` and `CONTRIBUTORS.txt`.
+     2. **ENSURES the entries' URLs are correctly linked to the upstream**.
+     3. There **MUST BE 2 EMPTY lines** context separator between the ownership
+        entities list and the first line of the license first clause.
+4. Please **ONLY USE AND SUPPORT** the following open source image editing
+   software for securing software supply chain from unwanted threats (e.g.
+   vendor-locked by any expensive or proprietary software):
+   * **GIMP (http://gimp.org)** - for rasterized graphics maintenances and
+     exporting non-vector graphic files (e.g. `.svg` to `.png` or `.jpg`).
+   * **Inkscape (https://inkscape.org)** - for vector graphics maintenances and
+     exporting `.svg` plain vector files.
+5. For the artificial intelligence (A.I.):
+   1. Use of A.I. **IS ALLOWED INTERNALLY** as long as:
+      * You as a legal entity (e.g. person|organization) **BEARS FULLY LEGAL
+        REPONSIBILITIES for ALL** your signed-off commitment.
+      * Non-legal entities (e.g. bot|AI account|shadow account|alternate account)
+        **ARE STRICTLY PROHIBITED FROM ANY SIGNED-OFF COMMITMENT**.
+      * Update the A.I Decree section accordingly on any use of any kind of A.I.
+   2. For any non-supervised or unatteneded automation; or "vibe" commitments,
+      to comply with the previous, please **REJECT ALL WITH PREJUDICE AND BLOCK
+      THE ENTITY WHEN NECESSARY**.
+7. Since (Holloway) Chew, Kean Ho published its trademark guidelines, you
+   **MUST** go through the following specifications to avoid any unwanted legal
+   implications:
+   * https://github.com/chewkeanho/legals-policies-trademark
+   * Standard Global Trademark Laws
+   * Local Trademark Laws
+8. While not specified by (Holloway) Chew, Kean Ho; please ensures the outputs
+   are web-ready. Refer:
+   * https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons
+   * https://web.dev/articles/maskable-icon
+   * https://developer.x.com/en/docs/x-for-websites/cards/overview/summary-card-with-large-image
+   * https://developers.facebook.com/docs/sharing/webmasters/images/
+9. For directory organizations:
+   * The principal canvas **MUST BE SAVED** in `inkscape SVG format` and retain
+     all legal attributes (license, copyright, etc). The files **MUST HAVE**
+     `inkscape-` prefixes to avoid confusion. They are saved inside
+     `/Pictures/trademarks/principal-canvas` directory.
+   * The exported svg **MUST BE IN** `Plain SVG format` and retain all legal
+     attributes (license, copright, etc). The files **MUST NOT HAVE**
+     `inkscape-` prefixes. They are saved inside `/Pictures/trademarks`
+     directory.
+   * The main-course **MUST** always be `.svg` as end-user can use GIMP to
+     convert into other formats.
+   * Therefore, additional non-text based images (e.g. `.ico`, `.jpg`, `.webp`,
+     and `.avif`) should be published in `Release` section as "Good to Have"
+     convenient side-dishes.
 
 
 
@@ -148,9 +290,9 @@ For artificial intelligence:
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-* [Agreed GIMP License](.internals/terms-of-services/GimpORG_License.pdf)
+* [Agreed GIMP License](.internals/terms-of-services/GimpORG-License.pdf)
 * [Agreed GIMP Privacy Policy](.internals/privacy-policy/GimpORG-Privacy-Policy.pdf)
-* [Agreed Inkscape License](.internals/terms-of-services/Inkscape_License.pdf)
+* [Agreed Inkscape License](.internals/terms-of-services/Inkscape-License.pdf)
 * [Agreed Inkscape Privacy Policy](.internals/privacy-policy/Inkscape-Privacy-Policy.pdf)
 
 This entire repository is licensed under
@@ -180,15 +322,16 @@ Unless otherwise specified in writing, you **MUST** attribute back to the
 creator(s) as follows:
 
 ```
-Title: (Holloway) Chew, Kean Ho's System Hardware Service Product Trademark Logo 7680x4320
+Title: (Holloway) Chew, Kean Ho's Fabricable Hardware Service Product Trademark Logo 7680x4320
 Creators: (Holloway) Chew, Kean Ho
+Packaged-By: (Holloway) Chew, Kean Ho
 Contact: hello@chewkeanho.com
 SKU: chewkeanho-visuals-trademarks-chewkeanhohardware-7680x4320
 UUID: 20A79FBA-22E6-4D4E-9B8A-E37391FB8805
 License: Creative Commons Attribution-NoDerivatives 4.0 International License (https://creativecommons.org/licenses/by-nd/4.0)
-Made On: 2026-03-05
-Made From: Malaysia, South East Asia
-Procure: https://github.com/chewkeanho/visuals-trademarks-chewkeanhohardware-7680x4320
+Repository Made On: 2026-03-05
+Repository Made From: Malaysia, South East Asia
+Procure: https://github.com/ChewKeanHo/visuals-trademarks-chewkeanhohardware-7680x4320
 ```
 
 
